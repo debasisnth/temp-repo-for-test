@@ -5,7 +5,10 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 //import {MatStepperModule} from '@angular/material/stepper';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select'; 
+import {MatGridListModule} from '@angular/material/grid-list'; 
 
 
 @NgModule ({
@@ -15,7 +18,10 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     //MatStepperModule,
     MatFormFieldModule,
-    MatCardModule
+    MatInputModule,
+    MatCardModule,
+    MatSelectModule,
+    MatGridListModule
   ],
   exports:[
     MatSliderModule,
@@ -23,7 +29,10 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     //MatStepperModule,
     MatFormFieldModule,
-    MatCardModule
+    MatInputModule,
+    MatCardModule,
+    MatSelectModule,
+    MatGridListModule
   ]
 
 })
